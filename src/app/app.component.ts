@@ -7,9 +7,6 @@ declare const $: JQueryStatic;
   templateUrl: './app.component.html'
 })
 export class AppComponent implements AfterViewInit {
-  public constructor() {
-  }
-
   public ngAfterViewInit(): void {
     $('#spreadsheet').kendoSpreadsheet();
   }
